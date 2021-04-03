@@ -1,10 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
+html, body { height: 100vh; }
 body {
   margin: 0;
   font-family: 'Noto Sans TC', Roboto, "Helvetica Neue", sans-serif;
   background-image: url('assets/background.jpg');
-  background-size: 100%;
+  background-size: 133vh 100vh;
   background-repeat: no-repeat;
 }
