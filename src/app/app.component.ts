@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Countdown';
   time: string;
-
+  end = false;
   public constructor() {
 
   }
@@ -22,16 +22,19 @@ export class AppComponent {
     setInterval(() => {
       const now = new Date().getTime();
       const distance = countDownDate - now;
-      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      const minutes: string = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)).toString();
-      const seconds = Math.floor((distance % (1000 * 60)) / 1000).toString();
-      // if (minutes.length < 2) {
-      //   minutes = '0' + minutes;
-      // }
-      // if (seconds.length < 2) {
-      //   seconds = '0' + seconds;
-      // }
-      this.time = minutes + '分' + seconds + '秒';
+      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      this.time = '';
+      if (minutes === 0 && seconds === 0) {
+        this.end = true;
+      }
+      if (minutes > 0) {
+        this.time += minutes + '分';
+      }
+      this.time += seconds + '秒';
+      if (this.end) {
+        this.time = '';
+      }
     }, 1000);
   }
 }
