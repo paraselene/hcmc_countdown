@@ -9,7 +9,6 @@
 
 .container, h1 {
   font-size: 7vh;
-  line-height: 9vh;
   position:absolute;
   margin: 0;
 }
@@ -17,6 +16,7 @@
 #p1 {
   left: 3vh;
   top: 37vh;
+  line-height: 9vh;
 }
 
 #time {
