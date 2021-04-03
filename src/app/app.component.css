@@ -4,28 +4,28 @@
   position: relative;
   color: #3f3f3f;
   /*text-shadow: -1px 0 1vw white, 0 1px 1vw white, 1px 0 1vw white, 0 -1px 1vw white*/
-
 }
 
 .container, h1 {
   font-size: 7vh;
   position:absolute;
   margin: 0;
+  line-height: 7vh;
 }
 
 #p1 {
   left: 3vh;
-  top: 37vh;
+  top: 36vh;
   line-height: 9vh;
 }
 
 #time {
-  top: 70vh;
+  top: 73vh;
   width: 133vh;
   text-align: center;
 }
 
 #p2 {
   right: 3vh;
-  bottom: 3vh;
+  bottom: 2vh;
 }
