@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --aot --base-href https://paraselene.github.io/hcmc_countdown/; angular-cli-ghpages -d dist/countdown/ --no-silent",
+    "build": "git add .; git commit -m 'update'; git push; ng build --prod --aot --base-href https://paraselene.github.io/hcmc_countdown/; angular-cli-ghpages -d dist/countdown/ --no-silent",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
