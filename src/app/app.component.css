@@ -10,11 +10,11 @@
   font-size: 6vh;
   position: absolute;
   margin: 0;
-  line-height: 7vh;
+  line-height: 9vh;
 }
 
 #p1 {
-  top: 13vh;
+  top: 15vh;
   width: 133vh;
   text-align: center;
 }
