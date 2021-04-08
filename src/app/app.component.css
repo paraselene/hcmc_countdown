@@ -10,17 +10,18 @@
   font-size: 6vh;
   position: absolute;
   margin: 0;
-  line-height: 9vh;
+  line-height: 6vh;
 }
 
 #p1 {
-  top: 15vh;
+  top: 13vh;
   width: 133vh;
   text-align: center;
+  line-height: 9vh;
 }
 
 #time {
-  top: 55vh;
+  top: 57vh;
   width: 133vh;
   text-align: center;
 }
@@ -28,7 +29,7 @@
 #logo {
   position: absolute;
   right: 104vh;
-  bottom: 14vh;
+  bottom: 13vh;
   height: 8vh;
 }
 
