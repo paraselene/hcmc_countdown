@@ -14,9 +14,9 @@
 }
 
 #p1 {
-  left: 13vh;
   top: 13vh;
-  line-height: 9vh;
+  width: 133vh;
+  text-align: center;
 }
 
 #time {
