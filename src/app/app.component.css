@@ -7,32 +7,32 @@
 }
 
 .container, h1 {
-  font-size: 7vh;
+  font-size: 6vh;
   position: absolute;
   margin: 0;
   line-height: 7vh;
 }
 
 #p1 {
-  left: 3vh;
-  top: 36vh;
+  left: 13vh;
+  top: 13vh;
   line-height: 9vh;
 }
 
 #time {
-  top: 73vh;
+  top: 55vh;
   width: 133vh;
   text-align: center;
 }
 
 #logo {
   position: absolute;
-  right: 110vh;
-  bottom: 2vh;
-  height: 9vh;
+  right: 104vh;
+  bottom: 13vh;
+  height: 8vh;
 }
 
 #p2 {
-  right: 3vh;
-  bottom: 2vh;
+  right: 13vh;
+  bottom: 13vh;
 }

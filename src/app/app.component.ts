@@ -9,6 +9,7 @@ export class AppComponent {
   title = 'Countdown';
   time: string;
   end = false;
+  name: string;
   public constructor() {
 
   }
@@ -18,6 +19,7 @@ export class AppComponent {
 
     const urlParams = new URLSearchParams(window.location.search);
     const countDownTime = urlParams.get('time');
+    this.name = urlParams.get('name');
     const countDownDate = new Date('Jan1,2099,00:' + countDownTime).getTime();
     setInterval(() => {
       const now = new Date().getTime();
