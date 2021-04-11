@@ -1,5 +1,5 @@
 .container {
-  width: 133vh;
+  width: 134vh;
   height: 100vh;
   position: relative;
   color: black;
@@ -15,14 +15,14 @@
 
 #p1 {
   top: 13vh;
-  width: 133vh;
+  width: 134vh;
   text-align: center;
   line-height: 9vh;
 }
 
 #time {
   top: 57vh;
-  width: 133vh;
+  width: 134vh;
   text-align: center;
 }
 
