@@ -1,11 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+$width: 1024 / 768 * 100vh;
 
 html, body { height: 100vh; }
 body {
   margin: 0;
   font-family: 'Noto Sans TC', Roboto, "Helvetica Neue", sans-serif;
   background-image: url('assets/background.jpg');
-  background-size: 133.33333vh 100vh;
+  background-size: $width 100vh;
   background-repeat: no-repeat;
   overflow: hidden;
 }

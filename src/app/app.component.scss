@@ -1,5 +1,6 @@
+@import '../styles.scss';
 .container {
-  width: 133.33333vh;
+  width: $width;
   height: 100vh;
   position: relative;
   color: black;
@@ -15,14 +16,14 @@
 
 #p1 {
   top: 13vh;
-  width: 133.33333vh;
+  width: $width;
   text-align: center;
   line-height: 9vh;
 }
 
 #time {
   top: 57vh;
-  width: 133.33333vh;
+  width: $width;
   text-align: center;
 }
 
