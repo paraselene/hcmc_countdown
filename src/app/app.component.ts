@@ -31,7 +31,8 @@ export class AppComponent {
 
   serviceName(): string {
     const now = new Date().getTime();
-    const reference = 1640602740000; //new Date('Dec27,2021,23:59:00').getTime();
+    //const now = new Date('Jan2,2022,23:59:00').getTime();
+    const reference = new Date('Dec27,2021,00:00:00').getTime();
     const num = Math.floor((now - reference) / (7 * 24 * 3600 * 1000));
     return this.list[num];
   }
