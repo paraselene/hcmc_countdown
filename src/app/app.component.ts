@@ -15,8 +15,8 @@ export class AppComponent {
   }
 
   serviceName(): string {
-    //const now = new Date();
-    const now = new Date('Jan8,2023,14:00:00');
+    const now = new Date();
+    //const now = new Date('Jan8,2023,14:00:00');
     const now_timestamp = now.getTime();
     const reference_timestamp = new Date('Dec25,2022,00:00:00').getTime();
     const week = Math.floor((now_timestamp - reference_timestamp) / (7 * 24 * 3600 * 1000));
